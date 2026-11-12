@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENIGMA // Beyond Algorithms</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;600;700&family=Syncopate:wght@700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-block">
+        <a href="#" class="brand-link">
+          <span class="brand-title">ENIGMA</span>
+          <span class="brand-tag">SOFTWARE LABS</span>
+        </a>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#technologies" class="nav-link">Technologies</a>
+        <a href="#careers" class="nav-link">Careers</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        
+        <button id="soundToggleBtn" class="sound-pill-btn" title="Toggle Cinematic Sound">
+          <span class="sound-indicator"></span>
+          <span id="soundLabel">AUDIO: MUTED</span>
+        </button>
+        <span class="sys-badge">SYS // LIVE</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="robot-hero-section" id="robotHero">
+    <div class="robot-stage" id="robotStage">
+
+      <div class="robot-light-spot"></div>
+
+      <div class="robot-3d-wrapper" id="robotWrapper">
+
+        <div class="robot-floor-shadow"></div>
+
+        <div class="robot-video-container">
+          <video id="heroVideo" autoplay loop muted playsinline>
+            <source src="hero-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </div>
+
+      <div class="robot-hero-text">
+        <span class="hero-eyebrow">AUTONOMOUS COMPUTATIONAL INTELLIGENCE</span>
+        <h2 class="hero-headline">THE POST-ALGORITHMIC ERA</h2>
+        <div class="scroll-down-cta">
+          <span>SCROLL TO INITIALIZE</span>
+          <div class="scroll-arrow">&darr;</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="hands-scroll-section" id="handsSection">
+    
+    <div class="sticky-stage">
+
+      <img src="./sol-el.png" alt="Left Chrome Hand" class="hand hand-left" id="leftHand" />
+      <img src="./sag-el.png" alt="Right Chrome Hand" class="hand hand-right" id="rightHand" />
+
+      <div class="touch-spark" id="touchSpark"></div>
+
+      <div class="center-content" id="centerText">
+        <span class="center-code">PROTOCOL // 01</span>
+        <h1 class="enigma-main-title">ENIGMA</h1>
+        <p class="enigma-sub-title">BEYOND ALGORITHMS</p>
+        <div class="meta-strip">
+          <span>ZERO-KNOWLEDGE ARCHITECTURE</span>
+          <span class="dot">&bull;</span>
+          <span>NEURAL ENCRYPTION</span>
+          <span class="dot">&bull;</span>
+          <span>SPATIAL SYSTEMS</span>
+        </div>
+      </div>
+
+      <div class="scroll-hint" id="scrollHint">
+        <span>SCROLL DOWN</span>
+        <div class="scroll-mouse-icon"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="content-section" id="about">
+    <div class="section-container">
+      
+      <div class="editorial-header">
+        <span class="sec-tag">IDENTITY &bull; ABOUT ENIGMA</span>
+        <h2 class="sec-title">ENGINEERING INTELLIGENCE BEYOND ALGORITHMS</h2>
+        <p class="sec-lead">
+          ENIGMA is a mission-critical software engineering laboratory. We design autonomous systems, cryptographic protocols, and spatial computing architectures for organizations operating at global scale.
+        </p>
+      </div>
+
+      <div class="pillars-grid" id="services">
+        <div class="pillar-card">
+          <span class="pillar-no">01</span>
+          <h3>Autonomous Distributed Cores</h3>
+          <p>Event-driven micro-kernels engineered in Rust and Go, capable of real-time multi-region replication with deterministic sub-millisecond execution.</p>
+        </div>
+
+        <div class="pillar-card">
+          <span class="pillar-no">02</span>
+          <h3>Zero-Knowledge Cryptography</h3>
+          <p>Next-generation privacy-preserving networks, homomorphic computation pipelines, and mathematical trust fabrics for enterprise data silos.</p>
+        </div>
+
+        <div class="pillar-card">
+          <span class="pillar-no">03</span>
+          <h3>Spatial &amp; 3D Real-time Systems</h3>
+          <p>Ultra-low-latency WebGPU and WebGL graphics engines integrating neural rendering, sensor telemetry, and generative user interfaces.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <span class="footer-logo">ENIGMA</span>
+        <p class="footer-desc">Next-Gen Software &amp; Cryptographic Architecture.</p>
+      </div>
+      <div class="footer-col">
+        <span class="col-title">LOCATIONS</span>
+        <p>SAN FRANCISCO &bull; ISTANBUL &bull; TOKYO</p>
+      </div>
+      <div class="footer-col">
+        <span class="col-title">CONTACT</span>
+        <p>LABS@ENIGMA.SYS</p>
+      </div>
+      <div class="footer-col text-right">
+        <span class="col-title">RELEASE</span>
+        <p>&copy; 2026 ENIGMA LABS. ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
